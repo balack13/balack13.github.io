@@ -1237,3 +1237,9 @@ section {
 #menuu {
   margin-right: 25px;
 }
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
