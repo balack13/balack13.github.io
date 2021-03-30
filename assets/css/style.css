@@ -571,7 +571,7 @@ section {
 
 @media (max-width: 767px) {
   .testimonials {
-    margin: 30px 10px;
+    margin: 0px 10px 30px 10px;
   }
 }
 
@@ -678,6 +678,11 @@ section {
 
 iframe {
   padding-top: 50px;
+  display: block;
+  border: none;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
 }
 
 .otto {
@@ -686,4 +691,10 @@ iframe {
 
 #testimonials {
   padding-top: 0px;
+}
+
+.cta {
+  background: url("../img/background_logo.svg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
 }
