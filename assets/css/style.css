@@ -1,9 +1,5 @@
-@font-face {
-  font-family: Agrandir; src: url('assets\Agrandir\Agrandir-Regular.otf');
-}
-
 body {
-  font-family: Agrandir, sans-serif;
+  font-family: Raleway, sans-serif;
   color: #444444;
 }
 
@@ -17,7 +13,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Agrandir, sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -91,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: Agrandir, sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
@@ -144,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
-  font-family: Agrandir, sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -228,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav .drop-down > a:after {
   content: "\ea99";
-  font-family: Agrandir;
+  font-family: Raleway;
   padding-left: 10px;
   position: absolute;
   right: 15px;
@@ -316,13 +312,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 40px;
   font-size: 15px;
   font-weight: 500;
-  font-family: Agrandir, sans-serif;
+  font-family: Raleway, sans-serif;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
 #hero .btn-get-started {
-  font-family: Agrandir, sans-serif;
+  font-family: Raleway, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
