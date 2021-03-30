@@ -370,9 +370,9 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  height: 60vh;
-  background: url("../img/hatter5.jpg");
-  background-position: center;
+  height: 80vh;
+  background: url("../img/about.jpg");
+  background-position: top;
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
