@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 600px) and (min-width: 400px) {
+@media (max-width: 800px) and (min-width: 400px) {
   #hero {
     background: url("../img/megvagva2.jpg");
     background-position: top;
