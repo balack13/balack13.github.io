@@ -283,15 +283,12 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
-}
-
-#hero .container {
-  padding-top: 80px;
+  padding-bottom: 0px;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -300,41 +297,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-}
-
-#hero h2 {
-  color: #eee;
-  margin-bottom: 40px;
-  font-size: 15px;
-  font-weight: 500;
-  font-family: Raleway, sans-serif;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-#hero .btn-get-started {
-  font-family: Raleway, sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#hero .btn-get-started:hover {
-  background: #1163a6;
-  border: 2px solid #1163a6;
 }
 
 @media (min-width: 1024px) {
@@ -343,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) and (min-width: 400px) {
   #hero {
     background: url("../img/megvagva2.jpg");
     background-position: top;
@@ -351,10 +317,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     background-repeat: no-repeat;
     height: 80vh;
-    padding-bottom: 25%;
-  }
-  #hero .container {
-    padding-top: 60px;
   }
   #hero h1 {
     font-size: 32px;
