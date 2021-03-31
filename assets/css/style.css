@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 767px) {
   #hero {
     background: url("../img/megvagva2.jpg");
     background-position: top;
