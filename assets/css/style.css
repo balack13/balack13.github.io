@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   height: 80vh;
-  background: url("../img/megvagva.jpg");
+  background: url("../img/about.jpg");
   background-position: top;
   background-size: cover;
   position: relative;
@@ -344,11 +344,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #hero{
-    background: url("../img/megvagva2.jpg");
-  }
   #hero {
-    height: 100vh;
+    background: url("../img/megvagva2.jpg");
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 80vh;
+    padding-bottom: 25%;
   }
   #hero .container {
     padding-top: 60px;
@@ -408,7 +411,7 @@ section {
 --------------------------------------------------------------*/
 .about .content h2 {
   font-weight: 700;
-  font-size: 44px;
+  font-size: 38px;
   line-height: 60px;
   margin-bottom: 20px;
   text-transform: uppercase;
