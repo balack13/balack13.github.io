@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   height: 80vh;
-  background: url("../img/about.jpg");
+  background: url("../img/megvagva.jpg");
   background-position: top;
   background-size: cover;
   position: relative;
@@ -344,6 +344,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  #hero{
+    background: url("../img/megvagva2.jpg");
+  }
   #hero {
     height: 100vh;
   }
